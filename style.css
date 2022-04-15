@@ -1,0 +1,43 @@
+
+    body
+    {
+      background: url(image/background.jpg) no-repeat center center fixed ;
+      background-size: white;
+      -webkit-background-size: cover; 
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      overflow-x: show;
+    }
+    .game__score{
+      font-size: 40px;
+      padding-top: 5%;
+    }
+
+    .snake__game {
+      display: flex;
+      justify-content: space-around;
+      background-color: none;
+    
+    }
+
+    .points {
+      border: 10px solid #1a1f16;
+      border-radius: 10px;
+      padding: 50px;
+      background-color: #f3e8ea;
+      border-color: #1a1f16;
+    }
+
+    .gameover{
+      position: absolute;
+      top: 25%;
+      padding: 15px;
+      width: 100%;
+      display: none;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #99CC33;
+      font-size: 60px;
+      font-style: normal;
+    }
+
